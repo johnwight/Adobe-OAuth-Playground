@@ -48,6 +48,7 @@ Prerequisites:
 
 1. Upon successful sign in you are redirected to the Adobe IMS OAuth Playground application Step 2, with a pre-filled **Authorization Code**. If that is not the case, return to your I/O Console integration and make sure that the default redirect URI is pointing to your application (https://your-app-in-cloud.com/handler).
 
+          ![playground url](https://user-images.githubusercontent.com/29133525/36612735-a57f4360-1894-11e8-869b-03b933057b6d.png)
 
 
 1. Copy the **client secret** from the I/O Console Integration page, paste it in Adobe IMS OAuth Playground > Step 2 > Client Secret. Click **Generate Access Token**.

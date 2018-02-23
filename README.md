@@ -33,6 +33,7 @@ Prerequisites:
 
 1. Go to the URL where you have deployed the Adobe IMS OAuth application. In our case we have deployed it on Heroku: https://adobe-ims-oauth.herokuapp.com/.
 
+     ![playground url](https://user-images.githubusercontent.com/29133525/36612735-a57f4360-1894-11e8-869b-03b933057b6d.png)
 
 
 1. Copy the API Key (Client ID) from the integration you previously created. Click **Get Authorization Code** Remove the **creative_sdk** text from the scope because we did not add it for this integration.

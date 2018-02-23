@@ -42,6 +42,8 @@ Prerequisites:
 
 1. After you are redirected to the Adobe Sign In page, enter your Adobe ID credentials and click **Sign In**.
 
+     ![sign in](https://user-images.githubusercontent.com/29133525/36612876-10575ede-1895-11e8-8389-501f40d9e04a.png)
+
 
 
 1. Upon successful sign in you are redirected to the Adobe IMS OAuth Playground application Step 2, with a pre-filled **Authorization Code**. If that is not the case, return to your I/O Console integration and make sure that the default redirect URI is pointing to your application (https://your-app-in-cloud.com/handler).

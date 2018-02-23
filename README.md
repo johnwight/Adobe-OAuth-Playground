@@ -26,6 +26,8 @@ Prerequisites:
 
 1. For **Integration Details**, provide the required information. The default redirect URI should be a public URL. For this playground app please provide the URL as https://app_address.com/handler. Once the integration is created you will see that the API Key (Client ID) and Client Secret has been generated.
 
+     ![integration details](https://user-images.githubusercontent.com/29133525/36612561-341c3494-1894-11e8-8241-c3a2791511a7.png)
+
 
 ## Watch It Work
 

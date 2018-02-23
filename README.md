@@ -53,6 +53,7 @@ Prerequisites:
 
 1. Copy the **client secret** from the I/O Console Integration page, paste it in Adobe IMS OAuth Playground > Step 2 > Client Secret. Click **Generate Access Token**.
 
+     ![successful token generation](https://user-images.githubusercontent.com/29133525/36612989-5c7696d6-1895-11e8-8134-ec287cd61d08.png)
 
 
 Your Adobe IMS OAuth access token and refresh token are generated successfully!

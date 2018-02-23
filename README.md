@@ -26,36 +26,36 @@ Prerequisites:
 1. For **Integration Details**, provide the required information. The default redirect URI should be a public URL. For this playground app please provide the URL as https://app_address.com/handler. Once the integration is created you will see that the API Key (Client ID) and Client Secret has been generated.
 
 
-
-
-
-
 ## Watch It Work
 
-Go to the URL where you have deployed the Adobe IMS OAuth application. In our case we have deployed it on Heroku: https://adobe-ims-oauth.herokuapp.com/
+1. Go to the URL where you have deployed the Adobe IMS OAuth application. In our case we have deployed it on Heroku: https://adobe-ims-oauth.herokuapp.com/.
 
 
 
-Copy the API Key (Client ID) from the integration created in step 6. Click on "Get Authorization Code" 
-(Remove the "creative_sdk" from the scope because we didn't added it for this integration)
+1. Copy the API Key (Client ID) from the integration you previously created. Click **Get Authorization Code** Remove the **creative_sdk** text from the scope because we did not add it for this integration.
 
 
 
-You will be redirected to the Adobe Sign In page. Enter your Adobe ID credentials and click on Sign In.
+1. After you are redirected to the Adobe Sign In page, enter your Adobe ID credentials and click **Sign In**.
 
 
 
-Upon successful sign in you will redirected to the Adobe IMS OAuth Playground application Step 2 with pre-filled "Authorization Code". 
-If that is not the case then please go to your I/O Console integration and make sure that the default redirect URI is pointing to your application e.g. https://your-app-in-cloud.com/handler
+1. Upon successful sign in you are redirected to the Adobe IMS OAuth Playground application Step 2, with a pre-filled **Authorization Code**. If that is not the case, return to your I/O Console integration and make sure that the default redirect URI is pointing to your application (https://your-app-in-cloud.com/handler).
 
 
 
-Copy the "client secret" from I/O Console Integration page, paste it in Adobe IMS OAuth Playground→ Step 2→ Client Secret. Click on "Generate Access Token"
+1. Copy the **client secret** from the I/O Console Integration page, paste it in Adobe IMS OAuth Playground > Step 2 > Client Secret. Click **Generate Access Token**.
 
 
 
 Your Adobe IMS OAuth access token and refresh token are generated successfully!
 
 
+
+## Feedback?
+
+Please help make this solution as useful as possible. If you find a problem in the documentation or have a suggestion, click the **Issues** tab on this GiHhub repository and then click the **New issue** button. Provide a title and description for your comment and then click the **Submit new issue** button.
+
+   ![submit new issue](https://user-images.githubusercontent.com/29133525/32515298-f344bd5a-c3bc-11e7-9978-34516f964f9f.png)
 
 

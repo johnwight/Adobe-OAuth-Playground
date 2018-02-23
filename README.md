@@ -21,6 +21,7 @@ Prerequisites:
 
 1. Select services that support **OAuth Integration**. Most services support JWT access token, which can be easily generated within Adobe I/O Console Integration.
 
+     ![launch integration](https://user-images.githubusercontent.com/29133525/36612482-ef4ef464-1893-11e8-9f3a-63c808659d48.png)
 
 
 1. For **Integration Details**, provide the required information. The default redirect URI should be a public URL. For this playground app please provide the URL as https://app_address.com/handler. Once the integration is created you will see that the API Key (Client ID) and Client Secret has been generated.
